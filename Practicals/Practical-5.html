@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+    <style>
+
+        body {
+            background-color: rgb(202, 202, 202);
+        }
+
+        .navigation img {
+            width: 1510px;
+            height : 110px;
+            border: 5px solid black;
+        }
+
+        .img-map img {
+            width:630px;
+            height:400px;
+            display: block;
+            position:relative;
+            margin-left: 437px;
+        }
+
+        .intro-line {
+            color:white;
+            font-size: 36px;
+            font-family: sans-serif;
+            text-align: center;
+            font-weight: 300;
+
+        }
+
+        .para {
+            text-align: center;
+            font-family: sans-serif;
+            color: red;
+            font-size: 24px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navigation">
+        <img src="../images/Practical-5Header.png" alt="navigation bar image" usemap="#map-nav">
+        
+        <map name="map-nav">
+            <area shape="rectangle" coords="17,22,151,93" href="../index.html" alt="index-page">
+            <area shape="rectangle" coords="163,22,426,93" href="../Practicals/Practical-1.html" target="_blank" alt="Practical-1 page">
+            <area shape="rectangle" coords="440,22,700,93" href="../Practicals/Practical-2.html" target="_blank" alt="Practical-2 page">
+            <area shape="rectangle" coords="708,22,964,93" href="../Practicals/Practical-3.html" target="_blank" alt="Practical-3 page">
+            <area shape="rectangle" coords="981,22,1237,93" href="../Practicals/Practical-4.html" target="_blank" alt="Practical-4 page">
+            <area shape="rectangle" coords="1255,22,1504,93" href="../Practicals/Practical-5.html" target="_blank" alt="Practical-5 page">
+        </map>
+
+    </div>
+
+    <div class="intro-line">
+        <p>Introduction to Front-End Technologies.</p>
+    </div>
+
+    <div class="img-map">
+        <img src="../images/TagImage.png" alt="main image map" usemap="#map-img-main">
+        <map name="map-img-main">
+            <area shape="rectangle" coords="90,30,252,161" href="../Practicals/introToHTML.html" target="_blank" alt="Introduction page for HTML">
+            <area shape="rectangle" coords="363,50,481,163" href="../Practicals/introToCSS.html"  target="_blank" alt="Introduction page for CSS">
+            <area shape="rectangle" coords="117,236,265,381" href="../Practicals/introToJS.html"  target="_blank" alt="Introduction page for Java Script">
+            <area shape="circle" coords="431,312,90" href="../Practicals/introToBOOTSTRAP.html"  target="_blank" alt="Introduction page for BootStrap">
+        </map>
+    </div>
+
+    <br>
+
+    <div class="para">
+        <p>Click on any part of logo to know more about these technologies</p>
+    </div>
+
+    <br><br>
+</body>
+</html>
