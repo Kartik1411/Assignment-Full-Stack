@@ -1,19 +1,22 @@
 table{
-    border: 5px solid rgb(15, 22, 88);
-    border-radius: 20px;
+    border: 5px solid #0f1658;
     margin-left: auto;
     margin-right: auto;
+    border-collapse: seperate;  
+    border-spacing: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
 }
 
-table,td, th{
+tr,td,th{
     padding: 15px;
     font-size: 20px;
     border-collapse: collapse;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-tr{
     border-bottom: 2px solid rgb(204, 198, 198);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
