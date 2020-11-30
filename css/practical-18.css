@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(105,166,179,1) 0%, rgba(34,64,78,1) 44%, rgba(0,34,36,1) 100%);
+
+}
+
+.container{
+    width:500px;
+    background-color: rgb(199, 194, 194);
+    height:600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(87, 21, 21);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding:10px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.input{
+    margin: 15px;
+    height: 30px;
+    padding: 5px;
+    width: 430px;
+}
+
+#form label h4{
+    margin-left: 16px;
+}
+
+#form small{
+    font-weight: bolder;
+    margin:5px;
+    margin-left:10px;
+    color: red;
+    visibility: hidden;
+}
+
+.name i{
+    margin:0px;
+    position: absolute;
+    right:550px;
+    text-align: center;
+    top:190px;
+    visibility: hidden;
+}
+
+.email i{
+    margin-top:18px;
+    position: absolute;
+    right:550px;
+    text-align: center;
+    top:275px;
+    visibility: hidden;
+}
+
+.password i{
+    margin-top:32px;
+    position: absolute;
+    right:550px;
+    text-align: center;
+    top:365px;
+    visibility: hidden;
+}
+
+.confirm-password i{
+    margin-top:50px;
+    position: absolute;
+    right:550px;
+    text-align: center;
+    top:450px;
+    visibility: hidden;
+}
+
+#submit-btn{
+    width:200px;
+    height:40px;
+    text-align: center;
+    margin:20px auto;
+    border:none;
+    outline:none;
+    background-color:  rgb(80, 160, 170);
+    border-radius:5px;
+    color:white;
+}
+
+#submit-btn:hover{
+    width:200px;
+    height:40px;
+    text-align: center;
+    margin:20px auto;
+    border:none;
+    cursor: pointer;
+    outline:none;
+    background-color: #5e9459;
+    border-radius:5px;
+    color:white;
+}
